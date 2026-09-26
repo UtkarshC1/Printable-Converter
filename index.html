@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PrintMaster | Pro Notes Converter</title>
     
-    <!-- Adsterra Global Scripts (Codes 1 & 3) -->
+    <!-- Adsterra Global Scripts -->
     <script src="https://pl31526547.profitableratecpmnetwork.com/e1/77/c3/e177c3c629994bb8e1e296e4cad4a9a6.js"></script>
     <script src="https://pl31526549.profitableratecpmnetwork.com/cb/30/ae/cb30aebcd38282da2ce3ab0ddc0d8f6c.js"></script>
 
@@ -42,10 +42,8 @@
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
 
-        /* Hide elements gracefully */
         .hidden-step { display: none !important; }
         
-        /* Loader Animation */
         .loader {
             border: 4px solid #e2e8f0;
             border-top: 4px solid #4f46e5;
@@ -56,7 +54,6 @@
         }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
-        /* A4 Preview Paper Effect */
         .a4-preview {
             aspect-ratio: 1 / 1.4142;
             background: white;
@@ -64,125 +61,142 @@
             position: relative;
             overflow: hidden;
         }
+
+        /* Native Ad Styling */
+        .ad-container {
+            background-image: repeating-linear-gradient(45deg, #f8fafc 25%, transparent 25%, transparent 75%, #f8fafc 75%, #f8fafc), repeating-linear-gradient(45deg, #f8fafc 25%, #ffffff 25%, #ffffff 75%, #f8fafc 75%, #f8fafc);
+            background-position: 0 0, 10px 10px;
+            background-size: 20px 20px;
+        }
     </style>
 </head>
 <body class="text-slate-800 antialiased min-h-screen flex flex-col">
 
-<header class="bg-white border-b border-slate-200 sticky top-0 z-10 shadow-sm">
+<header class="bg-white border-b border-slate-200 sticky top-0 z-20 shadow-sm">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div class="flex items-center gap-2">
             <svg class="w-8 h-8 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
             <h1 class="text-xl font-bold tracking-tight text-slate-900">PrintMaster <span class="text-brand-600">Pro</span></h1>
         </div>
         <div class="flex items-center gap-4">
-            <!-- Adsterra Code 4 (Direct Smartlink) -->
-            <a href="https://www.profitableratecpmnetwork.com/e6bqxtqv?key=1d87b52141ed473e41bbfa0c4f472e92" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold bg-brand-50 text-brand-700 hover:bg-brand-100 rounded-lg transition-colors border border-brand-200">
+            <!-- Featured Tools Smartlink -->
+            <a href="https://www.profitableratecpmnetwork.com/e6bqxtqv?key=1d87b52141ed473e41bbfa0c4f472e92" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold bg-brand-50 text-brand-700 hover:bg-brand-100 rounded-lg transition-colors border border-brand-200 shadow-sm">
                 <span>Featured Tools</span>
                 <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
             </a>
-            <div class="text-sm font-medium text-slate-500 hidden sm:block">Smart Notes Converter</div>
         </div>
     </div>
 </header>
 
-<!-- Adsterra Code 10 (728x90 Top Leaderboard Banner) -->
-<div class="max-w-5xl mx-auto px-4 mt-6 w-full flex justify-center overflow-x-auto">
-    <div class="min-w-[728px] min-h-[90px] flex items-center justify-center">
-        <script>
-            atOptions = {
-                'key' : '4c52ea2549f08475493abbd43b11f284',
-                'format' : 'iframe',
-                'height' : 90,
-                'width' : 728,
-                'params' : {}
-            };
-        </script>
-        <script src="https://www.highrevenueformat.com/4c52ea2549f08475493abbd43b11f284/invoke.js"></script>
+<!-- Top Leaderboard Ad (728x90) Wrapped Elegantly -->
+<div class="max-w-4xl mx-auto px-4 mt-6 w-full flex flex-col items-center">
+    <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider mb-1">Sponsored</div>
+    <div class="ad-container border border-slate-200 rounded-xl p-2 shadow-inner overflow-hidden">
+        <div class="min-w-[728px] min-h-[90px] bg-white rounded-lg flex items-center justify-center">
+            <script>
+                atOptions = {
+                    'key' : '4c52ea2549f08475493abbd43b11f284',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+            </script>
+            <script src="https://www.highrevenueformat.com/4c52ea2549f08475493abbd43b11f284/invoke.js"></script>
+        </div>
     </div>
 </div>
 
-<!-- Main Area with Left/Right Skyscraper Banner Placements (Codes 7 & 8) -->
-<div class="flex-grow flex justify-center items-start px-2 py-4 gap-4">
+<div class="flex-grow flex justify-center items-start px-4 py-6 gap-6 max-w-7xl mx-auto w-full">
 
-    <!-- Left Skyscraper (Code 8: 160x600) -->
-    <aside class="hidden xl:block w-[160px] sticky top-20 pt-4 flex-shrink-0 text-center">
-        <script>
-            atOptions = {
-                'key' : '789f37a58c51819e713678cfe8b8193e',
-                'format' : 'iframe',
-                'height' : 600,
-                'width' : 160,
-                'params' : {}
-            };
-        </script>
-        <script src="https://www.highrevenueformat.com/789f37a58c51819e713678cfe8b8193e/invoke.js"></script>
+    <!-- Left Skyscraper (160x600) -->
+    <aside class="hidden lg:flex flex-col items-center sticky top-24 pt-2">
+        <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider mb-2">Advertisement</div>
+        <div class="ad-container border border-slate-200 rounded-xl p-2 shadow-inner">
+            <div class="bg-white rounded-lg overflow-hidden">
+                <script>
+                    atOptions = {
+                        'key' : '789f37a58c51819e713678cfe8b8193e',
+                        'format' : 'iframe',
+                        'height' : 600,
+                        'width' : 160,
+                        'params' : {}
+                    };
+                </script>
+                <script src="https://www.highrevenueformat.com/789f37a58c51819e713678cfe8b8193e/invoke.js"></script>
+            </div>
+        </div>
     </aside>
 
-    <!-- Main Content Container -->
-    <main class="w-full max-w-5xl">
-        <div class="bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden">
+    <!-- Main Wizard App -->
+    <main class="w-full max-w-4xl">
+        <div class="bg-white rounded-2xl shadow-xl border border-slate-200/60 overflow-hidden backdrop-blur-sm">
             
             <!-- Stepper Header -->
-            <div class="bg-slate-50 border-b border-slate-200 p-4 sm:p-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <div class="flex items-center space-x-2 text-sm font-medium w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0">
-                    <span id="step1-indicator" class="flex items-center text-brand-600">
+            <div class="bg-slate-50/80 border-b border-slate-200 p-4 sm:p-6">
+                <div class="flex items-center justify-between space-x-2 text-sm font-medium overflow-x-auto pb-2 sm:pb-0">
+                    <span id="step1-indicator" class="flex items-center text-brand-600 whitespace-nowrap">
                         <span class="w-6 h-6 rounded-full bg-brand-100 text-brand-600 flex items-center justify-center mr-2 border border-brand-200">1</span> Upload
                     </span>
-                    <span class="text-slate-300 px-1">›</span>
-                    <span id="step2-indicator" class="flex items-center text-slate-400 transition-colors">
+                    <span class="text-slate-300">›</span>
+                    <span id="step2-indicator" class="flex items-center text-slate-400 transition-colors whitespace-nowrap">
                         <span class="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center mr-2">2</span> Select
                     </span>
-                    <span class="text-slate-300 px-1">›</span>
-                    <span id="step3-indicator" class="flex items-center text-slate-400 transition-colors">
+                    <span class="text-slate-300">›</span>
+                    <span id="step3-indicator" class="flex items-center text-slate-400 transition-colors whitespace-nowrap">
                         <span class="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center mr-2">3</span> Preview
                     </span>
-                    <span class="text-slate-300 px-1">›</span>
-                    <span id="step4-indicator" class="flex items-center text-slate-400 transition-colors">
+                    <span class="text-slate-300">›</span>
+                    <span id="step4-indicator" class="flex items-center text-slate-400 transition-colors whitespace-nowrap">
                         <span class="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center mr-2">4</span> Download
                     </span>
                 </div>
             </div>
 
-            <div class="p-6 sm:p-8 relative min-h-[400px]">
+            <div class="p-6 sm:p-8 relative min-h-[450px]">
                 
                 <!-- Error Alert -->
-                <div id="error-alert" class="hidden absolute top-4 left-1/2 transform -translate-x-1/2 bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded shadow-md z-50 flex items-center">
+                <div id="error-alert" class="hidden absolute top-4 left-1/2 transform -translate-x-1/2 bg-red-50 border-l-4 border-red-500 text-red-700 p-4 rounded shadow-md z-50 flex items-center">
+                    <svg class="w-5 h-5 mr-2 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
                     <p id="error-message" class="text-sm font-medium">Error message here</p>
-                    <button onclick="hideError()" class="ml-4 text-red-500 hover:text-red-700">&times;</button>
+                    <button onclick="hideError()" class="ml-4 text-red-400 hover:text-red-700">&times;</button>
                 </div>
 
                 <!-- STEP 1: UPLOAD -->
-                <div id="step-1" class="step-container flex flex-col items-center justify-center h-full py-6">
-                    <div class="text-center mb-6">
-                        <h2 class="text-3xl font-bold text-slate-800 mb-2">Upload your PDF Notes</h2>
-                        <p class="text-slate-500">Transform dark slides into printable A4 sheets. 100% private, processing happens locally.</p>
+                <div id="step-1" class="step-container flex flex-col items-center justify-center h-full py-2">
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl font-bold text-slate-800 mb-3 tracking-tight">Upload your Notes</h2>
+                        <p class="text-slate-500 max-w-md mx-auto">Transform dark-mode lecture slides into beautiful, ink-saving printable A4 sheets.</p>
                     </div>
 
-                    <div id="drop-zone" class="w-full max-w-2xl border-2 border-dashed border-slate-300 rounded-xl bg-slate-50 p-10 text-center hover:bg-slate-100 hover:border-brand-400 transition-all cursor-pointer group mb-6">
+                    <div id="drop-zone" class="w-full max-w-lg border-2 border-dashed border-slate-300 rounded-2xl bg-slate-50 p-10 text-center hover:bg-brand-50 hover:border-brand-400 transition-all cursor-pointer group mb-8 shadow-sm">
                         <input type="file" id="file-input" class="hidden" accept="application/pdf">
-                        <div class="bg-white p-4 rounded-full shadow-sm inline-block mb-4 group-hover:scale-110 transition-transform">
+                        <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-100 inline-block mb-4 group-hover:-translate-y-1 group-hover:shadow-md transition-all">
                             <svg class="w-10 h-10 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
                         </div>
-                        <p class="text-lg font-medium text-slate-700 mb-1">Drag & drop your PDF here</p>
-                        <p class="text-sm text-slate-500 mb-6">or click to browse files</p>
-                        <button class="bg-brand-600 hover:bg-brand-700 text-white font-medium py-2.5 px-6 rounded-lg transition-colors shadow-sm">
-                            Select PDF File
+                        <p class="text-lg font-semibold text-slate-700 mb-1">Drag & drop your PDF</p>
+                        <p class="text-sm text-slate-400 mb-6">or click to browse files</p>
+                        <button class="bg-slate-800 hover:bg-slate-900 text-white font-medium py-2.5 px-6 rounded-lg transition-colors shadow-sm">
+                            Select File
                         </button>
                     </div>
 
-                    <!-- Adsterra Code 5 (468x60 In-Step Banner) -->
-                    <div class="w-full flex justify-center overflow-x-auto pt-2">
-                        <div class="min-w-[468px] min-h-[60px] flex items-center justify-center">
-                            <script>
-                                atOptions = {
-                                    'key' : 'bad598c4fc7a022656020cc064cac261',
-                                    'format' : 'iframe',
-                                    'height' : 60,
-                                    'width' : 468,
-                                    'params' : {}
-                                };
-                            </script>
-                            <script src="https://www.highrevenueformat.com/bad598c4fc7a022656020cc064cac261/invoke.js"></script>
+                    <!-- In-Step Ad Banner (468x60) -->
+                    <div class="flex flex-col items-center mt-auto border-t border-slate-100 pt-6 w-full">
+                        <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider mb-2">Sponsored</div>
+                        <div class="ad-container border border-slate-200 rounded-lg p-1.5">
+                            <div class="bg-white rounded overflow-hidden">
+                                <script>
+                                    atOptions = {
+                                        'key' : 'bad598c4fc7a022656020cc064cac261',
+                                        'format' : 'iframe',
+                                        'height' : 60,
+                                        'width' : 468,
+                                        'params' : {}
+                                    };
+                                </script>
+                                <script src="https://www.highrevenueformat.com/bad598c4fc7a022656020cc064cac261/invoke.js"></script>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -192,154 +206,145 @@
                     <div class="flex justify-between items-end mb-6">
                         <div>
                             <h2 class="text-2xl font-bold text-slate-800">Select Pages</h2>
-                            <p class="text-slate-500 text-sm mt-1">Choose the slides you want to print. All are selected by default.</p>
+                            <p class="text-slate-500 text-sm mt-1">Choose the slides to print.</p>
                         </div>
-                        <div class="flex gap-3">
-                            <button id="btn-select-all" class="text-sm font-medium text-brand-600 hover:text-brand-800">Select All</button>
-                            <button id="btn-deselect-all" class="text-sm font-medium text-slate-500 hover:text-slate-800">Deselect All</button>
+                        <div class="flex gap-3 bg-slate-100 p-1 rounded-lg">
+                            <button id="btn-select-all" class="text-xs font-medium text-slate-700 bg-white px-3 py-1.5 rounded shadow-sm">All</button>
+                            <button id="btn-deselect-all" class="text-xs font-medium text-slate-500 px-3 py-1.5 hover:text-slate-700">None</button>
                         </div>
                     </div>
 
-                    <div id="thumbnails-container" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4 overflow-y-auto max-h-[50vh] pr-2 pb-4">
+                    <div id="thumbnails-container" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 overflow-y-auto max-h-[50vh] pr-2 pb-4">
                         <div class="col-span-full flex flex-col items-center justify-center py-12 text-slate-400">
                             <div class="loader mb-4"></div>
                             <p>Loading pages...</p>
                         </div>
                     </div>
 
-                    <div class="mt-6 pt-6 border-t border-slate-200 flex justify-between items-center">
+                    <div class="mt-6 pt-6 border-t border-slate-200 flex justify-between items-center bg-white">
                         <button class="text-slate-500 hover:text-slate-800 font-medium px-4 py-2" onclick="goToStep(1)">← Back</button>
-                        <div class="text-sm font-medium text-slate-600"><span id="selected-count">0</span> pages selected</div>
-                        <button id="btn-to-step3" class="bg-brand-600 hover:bg-brand-700 text-white font-medium py-2.5 px-8 rounded-lg shadow-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
-                            Continue to Preview →
+                        <button id="btn-to-step3" class="bg-brand-600 hover:bg-brand-700 text-white font-medium py-2.5 px-8 rounded-lg shadow-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2">
+                            Preview <span class="bg-white/20 px-2 py-0.5 rounded text-xs"><span id="selected-count">0</span> pages</span> →
                         </button>
                     </div>
                 </div>
 
                 <!-- STEP 3: PREVIEW & SETTINGS -->
                 <div id="step-3" class="step-container hidden-step flex flex-col h-full">
-                    <h2 class="text-2xl font-bold text-slate-800 mb-2">Configure & Preview</h2>
-                    <p class="text-slate-500 text-sm mb-6">Check how the first page looks. We use a professional 6-slide layout with note lines.</p>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-6">Configure & Preview</h2>
                     
                     <div class="flex flex-col md:flex-row gap-8">
-                        <!-- Settings Panel -->
-                        <div class="w-full md:w-1/3 space-y-6">
-                            <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
-                                <h3 class="font-semibold text-slate-800 mb-4">Layout Settings</h3>
-                                
+                        <div class="w-full md:w-1/2 space-y-6 flex flex-col">
+                            <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                                <h3 class="font-semibold text-slate-800 mb-4 text-sm uppercase tracking-wide">Enhancements</h3>
                                 <div class="space-y-4">
-                                    <label class="flex items-start space-x-3 cursor-pointer group">
-                                        <div class="flex items-center h-5">
-                                            <input type="checkbox" id="toggle-invert" checked class="w-5 h-5 text-brand-600 rounded border-slate-300 focus:ring-brand-500 transition-all cursor-pointer">
+                                    <label class="flex items-start space-x-3 cursor-pointer group p-3 hover:bg-slate-50 rounded-lg transition-colors border border-transparent hover:border-slate-100">
+                                        <div class="flex items-center h-5 mt-0.5">
+                                            <input type="checkbox" id="toggle-invert" checked class="w-5 h-5 text-brand-600 rounded border-slate-300 focus:ring-brand-500">
                                         </div>
                                         <div class="flex flex-col">
-                                            <span class="text-slate-800 font-medium group-hover:text-brand-600 transition-colors">Invert Colors</span>
-                                            <span class="text-slate-500 text-xs mt-1">Converts dark backgrounds to white. Perfect for dark-mode slides.</span>
+                                            <span class="text-slate-800 font-medium">Invert Colors (Save Ink)</span>
+                                            <span class="text-slate-500 text-xs mt-0.5">Removes dark backgrounds automatically.</span>
                                         </div>
                                     </label>
 
-                                    <label class="flex items-start space-x-3 cursor-pointer group mt-4">
-                                        <div class="flex items-center h-5">
-                                            <input type="checkbox" id="toggle-bw" class="w-5 h-5 text-brand-600 rounded border-slate-300 focus:ring-brand-500 transition-all cursor-pointer">
+                                    <label class="flex items-start space-x-3 cursor-pointer group p-3 hover:bg-slate-50 rounded-lg transition-colors border border-transparent hover:border-slate-100">
+                                        <div class="flex items-center h-5 mt-0.5">
+                                            <input type="checkbox" id="toggle-bw" class="w-5 h-5 text-brand-600 rounded border-slate-300 focus:ring-brand-500">
                                         </div>
                                         <div class="flex flex-col">
-                                            <span class="text-slate-800 font-medium group-hover:text-brand-600 transition-colors">Black & White</span>
-                                            <span class="text-slate-500 text-xs mt-1">Converts slides to grayscale to save color ink.</span>
+                                            <span class="text-slate-800 font-medium">Force Black & White</span>
+                                            <span class="text-slate-500 text-xs mt-0.5">Converts everything to grayscale.</span>
                                         </div>
                                     </label>
-
-                                    <div class="pt-4 mt-4 border-t border-slate-200">
-                                        <label class="block text-sm font-medium text-slate-700 mb-1">Layout Type</label>
-                                        <div class="bg-white border border-slate-200 rounded-lg p-3 text-sm text-slate-600 font-medium flex items-center justify-between">
-                                            <span>6 Slides + Notes Space</span>
-                                            <svg class="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Adsterra Code 6 (300x250 Medium Rectangle Under Settings) -->
-                            <div class="w-full flex justify-center overflow-hidden rounded-xl border border-slate-200 bg-slate-50 p-2">
-                                <script>
-                                    atOptions = {
-                                        'key' : '4537263768607f07799e468c6db4411b',
-                                        'format' : 'iframe',
-                                        'height' : 250,
-                                        'width' : 300,
-                                        'params' : {}
-                                    };
-                                </script>
-                                <script src="https://www.highrevenueformat.com/4537263768607f07799e468c6db4411b/invoke.js"></script>
+                            <!-- Settings Side Ad (300x250) -->
+                            <div class="mt-auto flex flex-col items-center">
+                                <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider mb-2">Partner Offer</div>
+                                <div class="ad-container border border-slate-200 rounded-xl p-2">
+                                    <div class="bg-white rounded-lg overflow-hidden">
+                                        <script>
+                                            atOptions = {
+                                                'key' : '4537263768607f07799e468c6db4411b',
+                                                'format' : 'iframe',
+                                                'height' : 250,
+                                                'width' : 300,
+                                                'params' : {}
+                                            };
+                                        </script>
+                                        <script src="https://www.highrevenueformat.com/4537263768607f07799e468c6db4411b/invoke.js"></script>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Live Preview Panel -->
-                        <div class="w-full md:w-2/3 flex flex-col items-center bg-slate-100 p-6 rounded-xl border border-slate-200">
-                            <h3 class="font-semibold text-slate-700 mb-4 w-full text-left">Live Preview (Page 1)</h3>
-                            <div class="w-full max-w-[350px] relative">
-                                <div class="a4-preview w-full rounded relative">
+                        <!-- Preview Panel -->
+                        <div class="w-full md:w-1/2 flex flex-col items-center bg-slate-50 p-6 rounded-xl border border-slate-200">
+                            <div class="w-full max-w-[300px] relative">
+                                <div class="a4-preview w-full rounded border border-slate-200 relative">
                                     <canvas id="preview-canvas" class="w-full h-full absolute top-0 left-0"></canvas>
-                                    <div id="preview-loader" class="absolute inset-0 bg-white/80 flex flex-col items-center justify-center z-10">
-                                        <div class="loader mb-2"></div>
-                                        <span class="text-sm font-medium text-slate-500">Generating preview...</span>
+                                    <div id="preview-loader" class="absolute inset-0 bg-white/90 backdrop-blur-sm flex flex-col items-center justify-center z-10">
+                                        <div class="loader mb-3"></div>
+                                        <span class="text-xs font-semibold text-brand-600 uppercase tracking-widest">Rendering</span>
                                     </div>
                                 </div>
-                            </div>
-
-                            <!-- Adsterra Code 2 (Native Banner Below Preview) -->
-                            <div class="w-full mt-6 flex justify-center">
-                                <script async="async" data-cfasync="false" src="https://pl31526548.profitableratecpmnetwork.com/22a8f5d127f04a75be2fd6f4fe661f36/invoke.js"></script>
-                                <div id="container-22a8f5d127f04a75be2fd6f4fe661f36"></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="mt-8 pt-6 border-t border-slate-200 flex justify-between items-center">
-                        <button class="text-slate-500 hover:text-slate-800 font-medium px-4 py-2" onclick="goToStep(2)">← Edit Selection</button>
-                        <button id="btn-generate" class="bg-brand-600 hover:bg-brand-700 text-white font-medium py-3 px-8 rounded-lg shadow-md transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                            Generate & Download PDF
+                        <button class="text-slate-500 hover:text-slate-800 font-medium px-4 py-2" onclick="goToStep(2)">← Back</button>
+                        <button id="btn-generate" class="bg-slate-900 hover:bg-black text-white font-medium py-3 px-8 rounded-lg shadow-lg shadow-slate-900/20 transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                            Generate PDF
                         </button>
                     </div>
                 </div>
 
-                <!-- STEP 4: PROCESSING -->
-                <div id="step-4" class="step-container hidden-step flex flex-col items-center justify-center py-12 h-full text-center">
-                    <div class="relative w-24 h-24 mb-8">
-                        <svg class="w-full h-full text-slate-200" viewBox="0 0 100 100">
-                            <circle class="stroke-current border-4" cx="50" cy="50" r="45" fill="none" stroke-width="8"></circle>
-                        </svg>
-                        <svg class="w-full h-full text-brand-600 absolute top-0 left-0 transform -rotate-90" viewBox="0 0 100 100">
-                            <circle id="progress-circle" class="stroke-current border-4 transition-all duration-300" cx="50" cy="50" r="45" fill="none" stroke-width="8" stroke-dasharray="283" stroke-dashoffset="283"></circle>
-                        </svg>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <span id="progress-text" class="text-xl font-bold text-slate-800">0%</span>
+                <!-- STEP 4: PROCESSING / DONE -->
+                <div id="step-4" class="step-container hidden-step flex flex-col items-center justify-center py-10 h-full text-center">
+                    <div id="processing-view" class="flex flex-col items-center w-full">
+                        <div class="relative w-24 h-24 mb-6">
+                            <svg class="w-full h-full text-slate-100" viewBox="0 0 100 100">
+                                <circle class="stroke-current border-4" cx="50" cy="50" r="45" fill="none" stroke-width="8"></circle>
+                            </svg>
+                            <svg class="w-full h-full text-brand-500 absolute top-0 left-0 transform -rotate-90" viewBox="0 0 100 100">
+                                <circle id="progress-circle" class="stroke-current border-4 transition-all duration-300" cx="50" cy="50" r="45" fill="none" stroke-width="8" stroke-dasharray="283" stroke-dashoffset="283"></circle>
+                            </svg>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <span id="progress-text" class="text-xl font-bold text-slate-700">0%</span>
+                            </div>
                         </div>
+                        <h2 class="text-2xl font-bold text-slate-800 mb-2">Preparing your document</h2>
+                        <p class="text-slate-500">Applying filters and optimizing for print.</p>
                     </div>
                     
-                    <h2 class="text-2xl font-bold text-slate-800 mb-2">Crafting your perfect notes...</h2>
-                    <p class="text-slate-500 max-w-md">Applying high-quality rendering and smart layout. This might take a moment depending on the number of pages.</p>
-                    
-                    <div id="success-state" class="hidden flex-col items-center mt-6">
-                        <div class="bg-green-100 text-green-700 p-3 rounded-full mb-3">
-                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    <div id="success-state" class="hidden flex-col items-center w-full">
+                        <div class="bg-green-50 border border-green-200 text-green-600 p-4 rounded-full mb-4 shadow-sm">
+                            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                         </div>
-                        <p class="font-medium text-slate-800 text-lg">Download Complete!</p>
-                        <button onclick="resetApp()" class="mt-4 text-brand-600 hover:text-brand-800 font-medium underline">Convert another file</button>
-                    </div>
-
-                    <!-- Adsterra Code 9 (320x50 Bottom Conversion Banner) -->
-                    <div class="mt-8 flex justify-center">
-                        <script>
-                            atOptions = {
-                                'key' : '6ea0482b28c5994d83c49f30ef5b7233',
-                                'format' : 'iframe',
-                                'height' : 50,
-                                'width' : 320,
-                                'params' : {}
-                            };
-                        </script>
-                        <script src="https://www.highrevenueformat.com/6ea0482b28c5994d83c49f30ef5b7233/invoke.js"></script>
+                        <h2 class="text-2xl font-bold text-slate-800 mb-2">Success! Download starting.</h2>
+                        <button onclick="resetApp()" class="mt-2 text-brand-600 hover:text-brand-800 font-medium text-sm">Convert another document</button>
+                        
+                        <!-- Success Page Bottom Ad (320x50) -->
+                        <div class="mt-10 flex flex-col items-center w-full">
+                            <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider mb-2">Sponsored Link</div>
+                            <div class="ad-container border border-slate-200 rounded-lg p-1.5 shadow-sm">
+                                <div class="bg-white rounded overflow-hidden">
+                                    <script>
+                                        atOptions = {
+                                            'key' : '6ea0482b28c5994d83c49f30ef5b7233',
+                                            'format' : 'iframe',
+                                            'height' : 50,
+                                            'width' : 320,
+                                            'params' : {}
+                                        };
+                                    </script>
+                                    <script src="https://www.highrevenueformat.com/6ea0482b28c5994d83c49f30ef5b7233/invoke.js"></script>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -347,34 +352,40 @@
         </div>
     </main>
 
-    <!-- Right Skyscraper (Code 7: 160x300) -->
-    <aside class="hidden xl:block w-[160px] sticky top-20 pt-4 flex-shrink-0 text-center">
-        <script>
-            atOptions = {
-                'key' : '85ff82ec3ab035ee3ffddef384e52bf0',
-                'format' : 'iframe',
-                'height' : 300,
-                'width' : 160,
-                'params' : {}
-            };
-        </script>
-        <script src="https://www.highrevenueformat.com/85ff82ec3ab035ee3ffddef384e52bf0/invoke.js"></script>
+    <!-- Right Skyscraper (160x300) -->
+    <aside class="hidden xl:flex flex-col items-center sticky top-24 pt-2">
+        <div class="text-[10px] text-slate-400 font-medium uppercase tracking-wider mb-2">Advertisement</div>
+        <div class="ad-container border border-slate-200 rounded-xl p-2 shadow-inner">
+            <div class="bg-white rounded-lg overflow-hidden">
+                <script>
+                    atOptions = {
+                        'key' : '85ff82ec3ab035ee3ffddef384e52bf0',
+                        'format' : 'iframe',
+                        'height' : 300,
+                        'width' : 160,
+                        'params' : {}
+                    };
+                </script>
+                <script src="https://www.highrevenueformat.com/85ff82ec3ab035ee3ffddef384e52bf0/invoke.js"></script>
+            </div>
+        </div>
     </aside>
 
 </div>
 
 <script>
-    // Configuration & State
+    // Setup PDF.js worker
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
     
+    // Application State
     let state = {
         pdfDoc: null,
         totalPages: 0,
         selectedPages: new Set(),
-        pageImages: {}, 
         fileName: 'notes'
     };
 
+    // DOM Elements
     const UI = {
         dropZone: document.getElementById('drop-zone'),
         fileInput: document.getElementById('file-input'),
@@ -388,9 +399,11 @@
         btnGenerate: document.getElementById('btn-generate'),
         progressCircle: document.getElementById('progress-circle'),
         progressText: document.getElementById('progress-text'),
+        processingView: document.getElementById('processing-view'),
         successState: document.getElementById('success-state')
     };
 
+    // Helper functions
     function showError(msg) {
         const alert = document.getElementById('error-alert');
         document.getElementById('error-message').innerText = msg;
@@ -406,34 +419,33 @@
         for(let i=1; i<=4; i++) {
             const ind = document.getElementById(`step${i}-indicator`);
             if(i < step) {
-                ind.className = "flex items-center text-slate-800 cursor-pointer";
+                ind.className = "flex items-center text-slate-800 cursor-pointer whitespace-nowrap";
                 ind.innerHTML = `<span class="w-6 h-6 rounded-full bg-slate-800 text-white flex items-center justify-center mr-2"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></span> <span class="hidden sm:inline">Done</span>`;
                 ind.onclick = () => { if(step < 4) goToStep(i); };
             } else if (i === step) {
-                ind.className = "flex items-center text-brand-600 font-semibold";
+                ind.className = "flex items-center text-brand-600 font-semibold whitespace-nowrap";
                 ind.innerHTML = `<span class="w-6 h-6 rounded-full bg-brand-100 text-brand-600 border border-brand-200 flex items-center justify-center mr-2">${i}</span> <span class="hidden sm:inline">${getStepName(i)}</span>`;
                 ind.onclick = null;
             } else {
-                ind.className = "flex items-center text-slate-400";
+                ind.className = "flex items-center text-slate-400 whitespace-nowrap";
                 ind.innerHTML = `<span class="w-6 h-6 rounded-full bg-slate-100 flex items-center justify-center mr-2">${i}</span> <span class="hidden sm:inline">${getStepName(i)}</span>`;
                 ind.onclick = null;
             }
         }
-
         if(step === 3) generatePreview();
     }
     function getStepName(i) { return ['Upload', 'Select', 'Preview', 'Download'][i-1]; }
 
     function resetApp() {
-        state = { pdfDoc: null, totalPages: 0, selectedPages: new Set(), pageImages: {}, fileName: 'notes' };
+        state = { pdfDoc: null, totalPages: 0, selectedPages: new Set(), fileName: 'notes' };
         UI.thumbContainer.innerHTML = '';
         UI.fileInput.value = '';
         UI.successState.classList.add('hidden');
-        document.querySelector('#step-4 h2').classList.remove('hidden');
-        document.querySelector('#step-4 p').classList.remove('hidden');
+        UI.processingView.classList.remove('hidden');
         goToStep(1);
     }
 
+    // Event Listeners: Step 1 (Drag & Drop)
     UI.dropZone.addEventListener('click', () => UI.fileInput.click());
     
     UI.dropZone.addEventListener('dragover', (e) => {
@@ -481,6 +493,7 @@
         }
     }
 
+    // Thumbnail Rendering
     async function renderThumbnails() {
         UI.thumbContainer.innerHTML = '';
         updateSelectionCount();
@@ -555,6 +568,7 @@
 
     UI.btnToStep3.onclick = () => goToStep(3);
 
+    // Filters and Preview
     UI.toggleInvert.addEventListener('change', generatePreview);
     UI.toggleBw.addEventListener('change', generatePreview);
 
@@ -663,6 +677,7 @@
         UI.previewLoader.classList.add('hidden');
     }
 
+    // Step 4: Generate and Download
     UI.btnGenerate.onclick = async () => {
         goToStep(4);
         
@@ -750,8 +765,7 @@
 
         doc.save(`${state.fileName}_printable_notes.pdf`);
         
-        document.querySelector('#step-4 h2').classList.add('hidden');
-        document.querySelector('#step-4 p').classList.add('hidden');
+        UI.processingView.classList.add('hidden');
         UI.successState.classList.remove('hidden');
         UI.successState.classList.add('flex');
     };
